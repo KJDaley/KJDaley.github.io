@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <title> forms </title>
+  </head>
+
+  <body bgcolor="#C0C0C0">
+
+    <h1>Forms</h1>
+
+  <h3>Below is a text area form control.</h3>
+
+      <form action="" method="get">
+        <p>What do you think of video games?</p>
+          <textarea name="comments" rows="5" cols="10">Enter your comments ... </textarea>
+      </form>
+
+      <hr />
+
+      <h3>Below is a radio button form control.</h3>
+
+      <form action="" method="get">
+        <p>What is the best Nintendo game franchise?
+          <br />
+          <input type="radio" name="gameChoice" value="Super Mario" checked="checked" /> Super Mario
+          <input type="radio" name="gameChoice" value="The Legend of Zelda" /> The Legend of Zelda
+          <input type="radio" name="gameChoice" value="Kirby" /> Kirby
+          <input type="radio" name="gameChoice" value="Metroid" /> Metroid
+          <input type="radio" name="gameChoice" value="Star Fox" /> Star Fox
+          <input type="radio" name="gameChoice" value="Donkey Kong Country" /> Donkey Kong Country
+          <input type="radio" name="gameChoice" value="Yoshi" /> Yoshi
+          <input type="radio" name="gameChoice" value="Pokemon" /> Pokemon
+        </p>
+      </form>
+
+      <hr />
+
+      <h3>Below is a drop down list box form control.</h3>
+
+      <form action="" method="get">
+        <p>What is your preferred mode of gaming?</p>
+        <select name="gamingPreference">
+          <option value="Switch">The Switch</option>
+          <option value="PS4">The PS4</option>
+          <option value="Xbox One">The Xbox One</option>
+          <option value="PC">The PC</option>
+          <option value="Phone">The Phone</option>
+          <option value="3DS">The 3DS</option>
+          <option value="WiiSeries">The Wii and/or Wii U</option>
+          <option value="PS3">The PS3</option>
+          <option value="Xbox 360">The Xbox 360</option>
+          <option value="ClassicConsoles">Any Classic Console</option>
+        </select>
+      </form>
+
+      <hr />
+
+      <h3>Below is a multiple select box form control.</h3>
+
+      <form action="" method="get">
+        <p>Have you played any of these games?</p>
+        <select name="game" size="3" multiple="multiple">
+          <option value="Undertale" selected="selected">Undertale</option>
+          <option value="Minecraft">Minecraft</option>
+          <option value="Portal" selected="selected">Portal</option>
+          <option value="TF2">Team Fortress 2</option>
+          <option value="DDLC">Doki Doki Literature Club</option>
+          <option value="Bendy">Bendy and the Ink Machine</option>
+          <option value="FNAF">Five Nights at Freddy's</option>
+          <option value="Cuphead">Cuphead</option>
+          <option value="GMod">Garry's Mod</option>
+          <option value="osu">Osu!</option>
+        </select>
+      </form>
+
+      <hr />
+
+      <h3>Below is a fieldset form control.</h3>
+
+      <fieldset>
+        <legend>What is your favotite modern video game and the console it's on?</legend>
+          <br />
+          Favorite Modern Console Game:<input type="text" name="fgame" />
+        </label>
+        Platform:
+        <input id="switch" type="radio" name="fgane" value="f">
+        <label for="switch">Switch</label>
+        <input id="ps4" type="radio" name="fgane" value="m">
+        <label for="ps4">PS4</label>
+        <input id="xbox1" type="radio" name="fgane" value="m">
+        <label for="xbox1">Xbox One</label>
+      </fieldset>
+  </body>
+</html>
