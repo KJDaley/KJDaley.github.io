@@ -13,7 +13,8 @@ h3 {
 ul
 {
   text-align: center;
-  margin: auto;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
