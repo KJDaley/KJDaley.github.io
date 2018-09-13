@@ -20,13 +20,13 @@ ul
 li {
   padding: 4px;
   list-style: none;
-  display: inline-block;
+  display: inline;
   background-color: #C8B8F3;
   border: 4px;
   border-width: 2px;
   border-style: dotted;
   border-color: black;
-  margin: auto;
+  margin-right: 3px;
 }
 
 div {
