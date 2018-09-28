@@ -1,0 +1,47 @@
+body
+{
+  width: 960px;
+  text-align: center;
+  background-color: silver;
+  margin: 0 auto;
+}
+
+.header
+{
+  width: 940;
+  background-color: gold;
+  margin: 10;
+  float: left;
+}
+
+.double
+{
+  width: 460;
+  margin: 10;
+  float: left;
+  background-color: red;
+}
+
+.triple
+{
+  width: 300;
+  margin: 10;
+  float: left;
+  background-color: blue;
+}
+
+.quad
+{
+  width: 220;
+  margin: 10;
+  float: left;
+  background-color: green;
+}
+
+.six
+{
+  width: 140;
+  margin: 10;
+  float: left;
+  background-color: yellow;
+}
