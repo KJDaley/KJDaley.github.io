@@ -1,52 +1,24 @@
-function aGame(hn, vn, hs, vs)
+function aGame(hn, vn)
 {
   this.homeName = hn;
   this.vistorName = vn;
-  this.homeScore = hs;
-  this.vistorScore = vs;
   this.getSummery = function()
   {
     var sumArray = new Array();
     sumArray[0] = this.homeName;
-    sumArray[1] = this.homeScore;
+    sumArray[1] = Math.floor(Math.random() * 20 + 70);
     sumArray[2] = this.vistorName;
-    sumArray[3] = this.vistorScore;
+    sumArray[3] = Math.floor(Math.random() * 20 + 70);
     return sumArray;
   }
 }
 
-var a = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var b = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var c = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var d = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var e = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var f = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var g = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var h = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var i = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var j = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var k = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-var l = ['70', '71', '72', '73', '74', '75', '76', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90'];
-
-var random1 = a[Math.floor(Math.random() * a.length)];
-var random2 = b[Math.floor(Math.random() * b.length)];
-var random3 = c[Math.floor(Math.random() * c.length)];
-var random4 = d[Math.floor(Math.random() * d.length)];
-var random5 = e[Math.floor(Math.random() * e.length)];
-var random6 = f[Math.floor(Math.random() * f.length)];
-var random7 = g[Math.floor(Math.random() * g.length)];
-var random8 = h[Math.floor(Math.random() * h.length)];
-var random9 = i[Math.floor(Math.random() * i.length)];
-var random10 = j[Math.floor(Math.random() * j.length)];
-var random11 = k[Math.floor(Math.random() * k.length)];
-var random12 = l[Math.floor(Math.random() * l.length)];
-
-var game1 = new aGame("Cardinals: ", " Ravens: ", random1, random2);
-var game2 = new aGame("Blue Jays: ", " Parrots: ", random3, random4);
-var game3 = new aGame("Eagles: ", " Robins: ", random5, random6);
-var game4 = new aGame("Vultures: ", " Penguins: ", random7, random8);
-var game5 = new aGame("Falcons: ", " Swallows: ", random9, random10);
-var game6 = new aGame("Owls: ", " Seagulls: ", random11, random12);
+var game1 = new aGame("Cardinals: ", " Ravens: ");
+var game2 = new aGame("Blue Jays: ", " Parrots: ");
+var game3 = new aGame("Eagles: ", " Robins: ");
+var game4 = new aGame("Vultures: ", " Penguins: ");
+var game5 = new aGame("Falcons: ", " Swallows: ");
+var game6 = new aGame("Owls: ", " Seagulls: ");
 
 var element1 = document.getElementById("first");
 var results1 = game1.getSummery();
