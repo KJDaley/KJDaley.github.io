@@ -10,8 +10,8 @@ function showCoords(event) {
 function setZero(e) {
   if (e.keyCode == 67)
   {
-    document.getElementById("uno").innerHTML = "Y coords: "+ 0;
-    document.getElementById("dos").innerHTML ="Y coords: " + 0;
+    document.getElementById("uno").innerHTML = "X coords: "+ 0;
+    document.getElementById("dos").innerHTML = "Y coords: " + 0;
   }
 }
 
