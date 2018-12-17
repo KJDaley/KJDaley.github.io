@@ -1,0 +1,249 @@
+
+/* Bodies */
+
+#firstBody
+{
+    background-image: url(choirpeeps.jpg);
+    background-size: cover;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#secondBody
+{
+    background-image: url(choirpeeps2.jpg);
+    background-size: cover;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#thirdBody
+{
+    background-image: url(choirpeeps3.jpg);
+    background-size: cover;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#fourthBody
+{
+    background-image: url(choirpeeps4.jpg);
+    background-size: cover;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#fifthBody
+{
+    background-image: url(choirpeeps5.jpg);
+    background-size: cover;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Navigation Bar Info */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+/* Div Tags */
+.infoimage
+{
+	padding-top: 5px;
+  padding-bottom: 5px;
+	border: black;
+	border-width: 5;
+  float: left;
+	border-style: solid;
+	background: white;
+	width: 440;
+	margin: 10;
+	color: white;
+	text-shadow: 3px 3px 3px grey;
+}
+
+.infotext
+{
+	padding-top: 30px;
+  float: right;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+	border: black;
+	border-width: 5;
+	border-style: solid;
+	background: maroon;
+	width: 440;
+  height: 250;
+	margin: 10;
+	color: white;
+	text-shadow: 3px 3px 3px grey;
+}
+
+.infoimage2
+{
+	padding-top: 5px;
+  padding-bottom: 5px;
+	border: black;
+	border-width: 5;
+  float: right;
+	border-style: solid;
+	background: white;
+	width: 440;
+	margin: 10;
+	color: white;
+	text-shadow: 3px 3px 3px grey;
+}
+
+.infotext2
+{
+	padding-top: 75px;
+  float: left;
+	border: black;
+	border-width: 5;
+	border-style: solid;
+	background: maroon;
+	width: 440;
+  height: 235;
+	margin: 10;
+	color: white;
+	text-shadow: 3px 3px 3px grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.end
+{
+	background: silver;
+	width: 940;
+	margin: 10;
+	float: left;
+	bottom: auto;
+}
+
+.infotext3
+{
+	padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+	border: black;
+	border-width: 5;
+	border-style: solid;
+	background: silver;
+	width: 910;
+	margin: 10;
+	color: white;
+	text-shadow: 3px 3px 3px grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Table Stuff */
+
+table
+{
+	width: 960px;
+  border-width: 10px;
+  border-style: groove;
+  border-color: yellow;
+  margin-right: auto;
+  margin-left: auto;
+  background: rgba(255,255,255,.8);
+  font-family: Times;
+  /*padding: 2px;
+  padding-top: 16px;
+  padding-bottom: 16px;*/
+}
+
+td
+{
+  border-color: black;
+  border-width: 2px;
+  /*padding-top: 8px;
+  padding-bottom: 8px;*/
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+tr.style1
+{
+  font-style: italic;
+  font-weight: 900;
+  border-color: black;
+  border-bottom: 8px;
+}
+
+td.form1
+{
+  text-align: center;
+}
+
+td.form2
+{
+  text-align: center;
+  font-size: 20px;
+  border-bottom-width: thick;
+}
